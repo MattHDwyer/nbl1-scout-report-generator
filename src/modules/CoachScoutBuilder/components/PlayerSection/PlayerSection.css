@@ -1,0 +1,102 @@
+.PlayerStatCell {
+  width: 75%;
+  box-sizing: border-box;
+  padding: 0 !important;
+  background: transparent;
+}
+
+.PlayerCareerStatRowHeader {
+  padding: 6px 8px !important;
+  font-size: 0.73rem !important;
+}
+
+.PlayerCareerStatRowHeader_Start {
+  padding: 6px 2px !important;
+  font-size: 0.6rem !important;
+}
+
+.PlayerNumberInputContainer {
+  display: inline-block;
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.235;
+}
+input.PlayerNumber {
+  padding: 0 !important;
+  padding-block: 0px !important;
+  padding-inline: 0px !important;
+  text-align: left;
+  outline: none;
+  border: none;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.235;
+  letter-spacing: 0.00735em;
+  width: 55px;
+}
+
+input.PlayerHeight {
+  padding: 0 !important;
+  padding-block: 0px !important;
+  padding-inline: 0px !important;
+  text-align: left;
+  outline: none;
+  border: none;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.235;
+  letter-spacing: 0.00735em;
+  width: 120px;
+}
+
+input.PlayerPosition {
+  padding: 0 !important;
+  padding-block: 0px !important;
+  padding-inline: 0px !important;
+  text-align: center;
+  outline: none;
+  border: none;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 1.235;
+  letter-spacing: 0.00735em;
+  width: 75px;
+}
+
+input.PlayerStatInput {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 0.7rem !important;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  display: table-cell;
+  vertical-align: inherit;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.87);
+  outline: none;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  background: transparent;
+}
+
+.PlayerSummaryTitleInput {
+  outline: none;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+  background: transparent;
+  margin: 0;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.6;
+  letter-spacing: 0.0075em;
+  border-bottom: 1px solid black;
+}

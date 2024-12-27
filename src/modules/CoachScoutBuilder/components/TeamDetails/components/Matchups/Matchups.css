@@ -1,0 +1,17 @@
+input.MatchupsInput {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 0.8rem !important;
+  line-height: 1.43;
+  letter-spacing: 0.01071em;
+  display: table-cell;
+  vertical-align: inherit;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.87);
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 8px 4px;
+  box-sizing: border-box;
+  background: transparent;
+}

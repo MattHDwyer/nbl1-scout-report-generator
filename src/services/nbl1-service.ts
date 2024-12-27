@@ -3,7 +3,7 @@ import axios from "axios";
 export const getTeamDetails = async () => {
   try {
     const response = await axios.request({
-      url: "http://localhost:8080/teams",
+      url: "http://localhost:8080/fetch-teams",
       method: "GET",
     });
     return response;
@@ -12,14 +12,13 @@ export const getTeamDetails = async () => {
   }
 };
 
-export const getTeamStats = async (teamId: string, teamName: string) => {
+export const getTeamStats = async (teamId: string) => {
   try {
     const response = await axios.request({
       url: `http://localhost:8080/player-stats`,
       method: "GET",
       params: {
         teamid: teamId,
-        xquarksrc: `web-nbl1-${teamName.toLowerCase().replace(/\s/g, "")}`,
       },
     });
     return response;
